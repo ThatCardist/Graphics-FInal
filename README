@@ -1,0 +1,43 @@
+Final Project: Neighborhood
+
+Wesley Lang
+CSCI4229/5229 Fall 2021
+
+
+A scene made up of various buildings and other structures. You can walk around with
+a camera and hopefully eventually take pictures of everything. Should start out seeing some of
+the buildings and structures
+TO DO:
+implement the light in the lamp post but it is effecting the main lighting
+camera flash on button press
+I would like to improve the clouds and make trees more random
+
+
+the fpv section is largely gotten from here:
+https://thepentamollisproject.blogspot.com/2018/02/setting-up-first-person-camera-in.html
+The lighting techniques are primarily adapted from ex13
+Static camera a lot of ex21
+
+
+Key bindings
+  +/=....increase scale of object in item view
+  -/_....decrease scale of object in item view
+  [.....Lower light
+  ].....Raise Light
+  ,/.-> decrease/increase light distance
+  l/L...Toggle Light
+  arrows Change view angle
+  0      Reset view angle
+  M... Change view mode: 0 = FPV; 1 = item viewer
+  i....change item in viewer
+  ESC    Exit
+  space...generate a new cloud in item view
+  p/P... decrease/length the length and width of fence in item mode
+  r...make a new scene
+
+  In First Person mode
+    arrows change direction of viewport
+    w/W...move forward
+    a/A...move Left
+    s/S...move backward
+    d/D...move right
